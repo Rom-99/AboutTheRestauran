@@ -21,28 +21,31 @@ body {
 *************************************header******************************************************
 ************************************************************************************************* */
 .header {
-    background: #160901;
     padding-top: 45px;
 }
 
-.nav-link{
+.nav-link {
     color: #ffff !important;
     margin-bottom: 70px;
 
 }
 
-.firstScreen{
+.firstScreen {
     border-radius: 7px;
+}
+
+
+.header__announcement {
+    gap: 16px;
+    background: rgba(213, 98, 29, 0.1);
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
 }
 
 
 /************************************************************************************************
 *************************************kitchen-section*********************************************
 ************************************************************************************************* */
-
-.row {
-    background: #160901;
-}
 
 .kitchen__title>h5 {
     color: #ffff;
@@ -81,13 +84,15 @@ body {
 
 
 
+.kitchen__link{
+    text-decoration: none;
+}
+
+
 /* **********************************************************************************************
 *************************************eventsTourists-section**************************************
 ************************************************************************************************* */
-.eventsTourists {
-    background: #160901 10%;
 
-}
 
 .eventsTourists__text {
     color: black;
@@ -118,14 +123,10 @@ body {
 *************************************rider-section***********************************************
 ************************************************************************************************* */
 
-.rider {
-    background: #160901 10%;
 
-}
 
 .rider__collapsible {
     background: rgba(213, 98, 29, 0.1);
-    border-radius: 5px;
     cursor: pointer;
     padding: 20px;
     width: 100%;
@@ -134,13 +135,12 @@ body {
     outline: none;
     font-size: 18px;
     color: #ffff;
-    margin-bottom: 20px;
+    margin-top: 19px;
 }
 
 .rider__active,
 .rider__collapsible:hover {
     background: #D5621D;
-    border-radius: 5px;
     transition: .3s;
 }
 
@@ -188,11 +188,6 @@ body {
 *************************************footer******************************************************
 ************************************************************************************************* */
 
-.footer {
-    background: #160901 10%;
-
-}
-
 .hedaing__text {
     color: black;
     background-color: #ffff;
@@ -222,6 +217,7 @@ body {
 .info {
     color: #ffff;
     padding: 50px 50px 0 50px;
+    padding-bottom: 66px;
 
 }
 
@@ -266,7 +262,7 @@ body {
 *************************************btn-section*************************************************
 ************************************************************************************************* */
 
-.header__btn{
+.header__btn {
     color: #ffff;
     border-radius: 5px;
     border: solid 2px #D5621D;
@@ -276,14 +272,30 @@ body {
     background: none;
 }
 
+.header__firstScreen-btn {
+    padding: 4px 46px;
+    border: none;
+    background: rgba(213, 98, 29, 0.1);
+    border-radius: 5px 5px 0px 1px;
+    color: #ffff;
+}
+
+.header__firstScreen-btn2 {
+    padding: 4px 70px;
+    border: none;
+    border-radius: 5px 5px 0px 1px;
+    background: rgba(213, 98, 29, 0.05);
+    color: #ffff;
+}
+
 .kitchen__btn {
     color: #ffff;
     background: #D5621D;
     border: none;
-    padding: 15px 30px;
     border-radius: 8px;
     font-weight: 700;
     margin: 97px 0 150px 0px;
+    padding: 15px 69px;
 }
 
 
