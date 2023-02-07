@@ -26,7 +26,6 @@ body {
 
 .nav-link {
     color: #ffff !important;
-    margin-bottom: 70px;
 
 }
 
@@ -270,6 +269,8 @@ body {
     border-radius: 8px;
     font-weight: 700;
     background: none;
+    margin-left: 65px;
+
 }
 
 .header__firstScreen-btn {
@@ -312,3 +313,15 @@ body {
     background: #D5621D;
     transition: .3;
 }
+
+
+.navbar-brand{
+    padding-right: 65px;
+}
+
+.nav-link{
+    margin-right: 30px;
+}
+
+
+    
