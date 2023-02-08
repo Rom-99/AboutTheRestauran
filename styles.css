@@ -24,9 +24,17 @@ body {
     padding-top: 45px;
 }
 
-.nav-link {
-    color: #ffff !important;
+.navbar {
+    margin-bottom: 70px;
+}
 
+.navbar-brand {
+    padding-right: 65px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    color: #ffff !important;
 }
 
 .firstScreen {
@@ -46,7 +54,7 @@ body {
 *************************************kitchen-section*********************************************
 ************************************************************************************************* */
 
-.kitchen__title>h5 {
+.kitchen__title {
     color: #ffff;
     font-weight: 700;
 
@@ -78,12 +86,12 @@ body {
 }
 
 .kitchen__container {
-    margin-bottom: 50px;
+    padding-left: 25px;
 }
 
 
 
-.kitchen__link{
+.kitchen__link {
     text-decoration: none;
 }
 
@@ -92,6 +100,9 @@ body {
 *************************************eventsTourists-section**************************************
 ************************************************************************************************* */
 
+.eventsTourists__photo {
+    border-radius: 5px;
+}
 
 .eventsTourists__text {
     color: black;
@@ -121,7 +132,6 @@ body {
 /* **********************************************************************************************
 *************************************rider-section***********************************************
 ************************************************************************************************* */
-
 
 
 .rider__collapsible {
@@ -213,21 +223,21 @@ body {
 
 }
 
-.info {
+.footer__frame-info {
     color: #ffff;
     padding: 50px 50px 0 50px;
     padding-bottom: 66px;
 
 }
 
-.info>h4 {
+.footer__frame-info>h4 {
     font-family: 'Gotham Pro';
     font-style: normal;
     margin-bottom: 20px;
 
 }
 
-.info>p {
+.footer__frame-info>p {
     font-size: 14px;
     font-family: 'Stolzl';
     font-style: normal;
@@ -314,14 +324,86 @@ body {
     transition: .3;
 }
 
+/* **********************************************************************************************
+*******************************@media screen*****************************************************
+************************************************************************************************* */
 
-.navbar-brand{
-    padding-right: 65px;
+@media screen and (max-width: 1200px) {
+    .header__announcement {
+        display: none !important;
+    }
+
+    .header__firstScreen-btn {
+        display: none;
+    }
+
+    .header__firstScreen-btn2 {
+        display: none;
+    }
+
+    .header__btn {
+        margin: 0;
+    }
+
+    .firstScreen {
+        margin-left: 40px;
+    }
+
+
+
+    .eventsTourists__photo {
+        margin-top: 101px;
+    }
+
+    .personnel__socialNetwork {
+        gap: 55px;
+    }
+
+    .footer__frame-info {
+        padding-bottom: 2px;
+    }
 }
 
-.nav-link{
-    margin-right: 30px;
+@media screen and (max-width: 991px) {
+    .navbar {
+        margin-bottom: 50px;
+    }
+
+    .firstScreen {
+        margin-left: 0px;
+    }
+
+    .ktichen__menu-img {
+        display: none;
+    }
+
+    .eventsTourists__photo {
+        display: none;
+    }
+
+    .iframe__maps {
+        display: none;
+    }
+
+    .iframe__maps {
+        display: none;
+    }
+
+    .personnel {
+        display: none;
+    }
 }
 
+@media screen and (max-width: 768px) {}
 
-    
+@media screen and (max-width: 576px) and (orientation: landscape) {}
+
+@media screen and (max-width: 576px) {}
+
+
+@media screen and (max-width: 452px) and (orientation: landscape) {}
+
+@media screen and (max-width: 452px) {}
+
+
+@media screen and (max-width: 327px) and (orientation: landscape) {}
