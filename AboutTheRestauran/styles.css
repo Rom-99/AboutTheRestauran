@@ -1,0 +1,409 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+
+}
+
+html p {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background: #160901;
+
+}
+
+/************************************************************************************************
+*************************************header******************************************************
+************************************************************************************************* */
+.header {
+    padding-top: 45px;
+}
+
+.navbar {
+    margin-bottom: 70px;
+}
+
+.navbar-brand {
+    padding-right: 65px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    color: #ffff !important;
+}
+
+.firstScreen {
+    border-radius: 7px;
+}
+
+
+.header__announcement {
+    gap: 16px;
+    background: rgba(213, 98, 29, 0.1);
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+
+/************************************************************************************************
+*************************************kitchen-section*********************************************
+************************************************************************************************* */
+
+.kitchen__title {
+    color: #ffff;
+    font-weight: 700;
+
+}
+
+.kitchen__title-frame {
+    border: solid 2px #D5621D;
+    padding: 5px 15px;
+    border-radius: 7px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.kitchen__title-frame:hover {
+    background: #D5621D;
+    transition: .3s;
+}
+
+.kichen__price {
+    color: #D5621D;
+}
+
+.kitchen__text {
+    margin-top: 7px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.kitchen__container {
+    padding-left: 25px;
+}
+
+
+
+.kitchen__link {
+    text-decoration: none;
+}
+
+
+/* **********************************************************************************************
+*************************************eventsTourists-section**************************************
+************************************************************************************************* */
+
+.eventsTourists__photo {
+    border-radius: 5px;
+}
+
+.eventsTourists__text {
+    color: black;
+    background-color: #ffff;
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.eventsTourists__text2>p {
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffff;
+
+}
+
+.eventsTourists__title {
+    color: #ffff;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+/* **********************************************************************************************
+*************************************rider-section***********************************************
+************************************************************************************************* */
+
+
+.rider__collapsible {
+    background: rgba(213, 98, 29, 0.1);
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 19px;
+}
+
+.rider__active,
+.rider__collapsible:hover {
+    background: #D5621D;
+    transition: .3s;
+}
+
+.rider__content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: #D5621D;
+    color: #ffff;
+
+}
+
+.personnel>img {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.personnel>p {
+    margin-top: 25px;
+    color: #ffff;
+}
+
+.personnel__socialNetwork {
+    gap: 33px;
+}
+
+
+.personnel__socialNetwork-frame {
+    border: solid 2px #D5621D;
+    padding: 12px 10px;
+    border-radius: 5px;
+
+}
+
+
+.personnel__socialNetwork-frame:hover {
+    background: #D5621D;
+    transition: .4s;
+
+
+}
+
+
+/* **********************************************************************************************
+*************************************footer******************************************************
+************************************************************************************************* */
+
+.hedaing__text {
+    color: black;
+    background-color: #ffff;
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 130px 0 50px 0;
+
+}
+
+.hedaing__title {
+    color: #ffff;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.footer__frame {
+
+    border: solid 2px #D5621D;
+    border-radius: 5px;
+    margin-bottom: 100px;
+
+}
+
+.footer__frame-info {
+    color: #ffff;
+    padding: 50px 50px 0 50px;
+    padding-bottom: 66px;
+
+}
+
+.footer__frame-info>h4 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    margin-bottom: 20px;
+
+}
+
+.footer__frame-info>p {
+    font-size: 14px;
+    font-family: 'Stolzl';
+    font-style: normal;
+
+}
+
+.info__line {
+    border: solid 1px;
+    opacity: 0.5;
+    margin: 45px 0;
+}
+
+#iframe__maps {
+    width: 100%;
+}
+
+.footer__frame2 {
+    border: solid 1px #ffff;
+    opacity: .5;
+    margin-bottom: 30px;
+}
+
+.footer__end>p {
+    color: #ffff;
+    opacity: .5;
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+/* **********************************************************************************************
+*************************************btn-section*************************************************
+************************************************************************************************* */
+
+.header__btn {
+    color: #ffff;
+    border-radius: 5px;
+    border: solid 2px #D5621D;
+    padding: 9px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    background: none;
+    margin-left: 65px;
+
+}
+
+.header__firstScreen-btn {
+    padding: 4px 46px;
+    border: none;
+    background: rgba(213, 98, 29, 0.1);
+    border-radius: 5px 5px 0px 1px;
+    color: #ffff;
+}
+
+.header__firstScreen-btn2 {
+    padding: 4px 70px;
+    border: none;
+    border-radius: 5px 5px 0px 1px;
+    background: rgba(213, 98, 29, 0.05);
+    color: #ffff;
+}
+
+.kitchen__btn {
+    color: #ffff;
+    background: #D5621D;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 97px 0 150px 0px;
+    padding: 15px 69px;
+}
+
+
+.eventsTourists__btn {
+    background: none;
+    border-radius: 5px;
+    border: solid 2px #D5621D;
+    color: #ffff;
+    padding: 5px 15px;
+    margin-top: 30px;
+}
+
+.eventsTourists__btn:hover {
+    background: #D5621D;
+    transition: .3;
+}
+
+/* **********************************************************************************************
+*******************************@media screen*****************************************************
+************************************************************************************************* */
+
+@media screen and (max-width: 1200px) {
+    .header__announcement {
+        display: none !important;
+    }
+
+    .header__firstScreen-btn {
+        display: none;
+    }
+
+    .header__firstScreen-btn2 {
+        display: none;
+    }
+
+    .header__btn {
+        margin: 0;
+    }
+
+    .firstScreen {
+        margin-left: 40px;
+    }
+
+
+
+    .eventsTourists__photo {
+        margin-top: 101px;
+    }
+
+    .personnel__socialNetwork {
+        gap: 55px;
+    }
+
+    .footer__frame-info {
+        padding-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        margin-bottom: 50px;
+    }
+
+    .firstScreen {
+        margin-left: 0px;
+    }
+
+    .ktichen__menu-img {
+        display: none;
+    }
+
+    .eventsTourists__photo {
+        display: none;
+    }
+
+    .iframe__maps {
+        display: none;
+    }
+
+    .iframe__maps {
+        display: none;
+    }
+
+    .personnel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) and (orientation: landscape) {}
+
+@media screen and (max-width: 576px) {}
+
+
+@media screen and (max-width: 452px) and (orientation: landscape) {}
+
+@media screen and (max-width: 452px) {}
+
+
+@media screen and (max-width: 327px) and (orientation: landscape) {}
